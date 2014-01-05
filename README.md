@@ -1,10 +1,13 @@
 FindForMe
 =========
 
-Python Console Up that executes robust directory search with additional perks.
+Python Console App that executes robust directory search with additional perks.
 
-
+Instructions:
+--------------------------------------------------------
 * FindForMe.py is the entry-point
+* For help type:
+	* python FindForMe.py --help
 
 Future Features:
 ---------------------------------------------------------
