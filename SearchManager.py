@@ -402,9 +402,3 @@ class SearchManager:
     @staticmethod
     def __arrange_pattern_array(pattern):
         return pattern.replace(' ', '').split(",")
-
-
-
-
-
-
