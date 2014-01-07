@@ -9,6 +9,11 @@ Instructions:
 * For help type:
 	* python FindForMe.py --help
 
+Installing Packages:
+------------------------
+
+    pip install -r requirements.txt
+
 Future Features:
 ---------------------------------------------------------
 1. Search statistics
