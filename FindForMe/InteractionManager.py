@@ -54,6 +54,7 @@ class OutputInteraction:
                                            result_dictionary[int(user_input)]["name"])])
         else:
             message_tool.print_with_style("No such option exists.", message_tool.notification_category.Warning)
+            return self.request_result_item(search_directory, result_dictionary, input_message)
 
 
 class NotificationController:
