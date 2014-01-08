@@ -23,8 +23,8 @@ class ResultController:
         result_dictionary = {}
 
         result_dictionary["size"] = getsize(join(current_root_directory, item))
-        result_dictionary["isDirectory"] = os.path.isdir(os.path.join(os.path.expanduser(current_root_directory), item))
-        result_dictionary["rootDirectory"] = str(current_root_directory)
+        result_dictionary["is_directory"] = os.path.isdir(os.path.join(os.path.expanduser(current_root_directory), item))
+        result_dictionary["root_directory"] = str(current_root_directory)
         result_dictionary["name"] = str(item)
         result_dictionary["search_type"] = current_search_type
 
@@ -105,7 +105,6 @@ class SearchManager:
         result_controller = ResultController()
 
         # Set up search result dictionary
-        categorized_search_results = {}
         flat_search_results = {}
         sub_directory_results = {}
         file_content_results = {}
@@ -126,6 +125,11 @@ class SearchManager:
                                                                  match_case)
 
             for sub_dir in filtered_sub_directories:
+                # If a pattern does exist then do not search through sub directories. User is clearly
+                # looking for files that fit the pattern therefore breakout of loop
+                if search_pattern != '':
+                    break
+
                 sub_directory_enumerator += 1
                 flat_results_enumerator += 1
 
@@ -211,23 +215,31 @@ class SearchManager:
 
                         # Add to dictionary for future retrieval
                         file_content_results[file_content_enumerator] = result_controller.convert_item_to_result_object(
-                            listed_file, root_directory, result_controller.search_type.SubDirectory, file_content_dict)
+                            listed_file, root_directory, result_controller.search_type.FileContent, file_content_dict)
 
                         # Add to flat dictionary. This dictionary is the one returned to client
                         flat_search_results[flat_results_enumerator] = result_controller.convert_item_to_result_object(
-                            listed_file, root_directory, result_controller.search_type.SubDirectory, file_content_dict)
+                            listed_file, root_directory, result_controller.search_type.FileContent, file_content_dict)
+
+            # Instantiate temp dictionary utilized for printing purposes
+            temp_search_results = {}
 
             # Insert result dictionaries into one overall dictionary
             if len(sub_directory_results) > 0:
-                categorized_search_results["sub_directories"] = sub_directory_results
+                temp_search_results["sub_directories"] = sub_directory_results
             if len(file_content_results) > 0:
-                categorized_search_results["file_content"] = file_content_results
+                temp_search_results["file_content"] = file_content_results
             if len(file_results) > 0:
-                categorized_search_results["files"] = file_results
+                temp_search_results["files"] = file_results
 
             # Print results
-            result_file_size, result_enumerator = self.__print_results(categorized_search_results, root_directory,
+            result_file_size, result_enumerator = self.__print_results(temp_search_results, root_directory,
                                                                        result_enumerator, result_file_size)
+
+            # Before looping through make sure to clear dictionaries
+            file_results = {}
+            file_content_results = {}
+            sub_directory_results = {}
 
         if result_enumerator > 0:
             notification_manager = InteractionManager.NotificationController()

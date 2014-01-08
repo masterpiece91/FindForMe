@@ -32,20 +32,26 @@ class OutputInteraction:
 
         # Make sure that the requested key exists otherwise return a message.
         if int(user_input) in result_dictionary:
-            if os.path.isdir(os.path.join(os.path.expanduser(search_directory), result_dictionary[int(user_input)])):
-                message_tool.print_with_style(os.path.join(os.path.expanduser(search_directory),
-                                                           result_dictionary[int(user_input)]),
-                                              message_tool.notification_category.Header)
+            if result_dictionary[int(user_input)]["is_directory"]:
+                message_tool.print_with_style(os.path.join(
+                    os.path.expanduser(result_dictionary[int(user_input)]["root_directory"]),
+                    result_dictionary[int(user_input)]["name"]), message_tool.notification_category.Header)
                 print ""
                 if current_operating_system == "Windows":
-                    subprocess.check_call(["dir", os.path.join(os.path.expanduser(search_directory),
-                                                               result_dictionary[int(user_input)])])
+                    subprocess.check_call(["dir", os.path.join(
+                        os.path.expanduser(result_dictionary[int(user_input)]["root_directory"]),
+                        result_dictionary[int(user_input)]["name"])])
                 else:
-                    subprocess.check_call(["ls", "-l", os.path.join(os.path.expanduser(search_directory),
-                                                                    result_dictionary[int(user_input)])])
+                    subprocess.check_call(["ls", "-l",
+                                           os.path.join(os.path.expanduser(
+                                               result_dictionary[int(user_input)]["root_directory"]),
+                                               result_dictionary[int(user_input)]["name"])])
             else:
                 # os.system('vi %s' % search_results[int(user_input)])
-                subprocess.check_call(["nano", result_dictionary[int(user_input)]])
+                subprocess.call(["nano",
+                                       os.path.join(os.path.expanduser(
+                                           result_dictionary[int(user_input)]["root_directory"]),
+                                           result_dictionary[int(user_input)]["name"])])
         else:
             message_tool.print_with_style("No such option exists.", message_tool.notification_category.Warning)
 

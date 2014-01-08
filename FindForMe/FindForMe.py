@@ -107,7 +107,7 @@ class FindForMeBasedController(controller.CementBaseController):
             __search_dir = ''
 
         if self.pargs.filter:
-            __file_types = self.pargs.filter
+            __file_types = str(self.pargs.filter).replace("'", "")
         else:
             __file_types = '*'
 

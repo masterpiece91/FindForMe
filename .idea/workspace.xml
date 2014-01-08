@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a13fce0b-3180-4871-9e38-a6d04744ba34" name="Default" comment="" />
+    <list default="true" id="a13fce0b-3180-4871-9e38-a6d04744ba34" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindForMe/FindForMe.py" afterPath="$PROJECT_DIR$/FindForMe/FindForMe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindForMe/InteractionManager.py" afterPath="$PROJECT_DIR$/FindForMe/InteractionManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FindForMe/SearchManager.py" afterPath="$PROJECT_DIR$/FindForMe/SearchManager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FindForMe.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,47 +38,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SearchManager.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SearchManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="82" selection-start="11502" selection-end="11502" vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="5445">
-              <folding>
-                <element signature="e#21#32#0" expanded="true" />
-                <element signature="e#18371#19922#0" expanded="false" />
-                <element signature="e#19991#20150#0" expanded="false" />
-                <element signature="e#20261#21255#0" expanded="false" />
-                <element signature="e#21325#21367#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindForMe.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FindForMe.py">
+        <entry file="file://$PROJECT_DIR$/FindForMe/FindForMe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="3013" selection-end="3013" vertical-scroll-proportion="1.1142857" vertical-offset="0" max-vertical-offset="2115">
-              <folding>
-                <element signature="e#21#67#0" expanded="true" />
-              </folding>
+            <state line="129" column="4" selection-start="4809" selection-end="4809" vertical-scroll-proportion="0.8578199" vertical-offset="804" max-vertical-offset="2070">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InteractionManager.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InteractionManager.py">
+        <entry file="file://$PROJECT_DIR$/FindForMe/InteractionManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="1170">
-              <folding>
-                <element signature="e#21#30#0" expanded="true" />
-              </folding>
+            <state line="78" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Common.py">
+      <file leaf-file-name="SearchManager.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FindForMe/SearchManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="234" column="27" selection-start="10975" selection-end="10975" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="6180">
               <folding />
             </state>
           </provider>
@@ -84,6 +71,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -98,6 +93,9 @@
         <option value="$PROJECT_DIR$/InteractionManager.py" />
         <option value="$PROJECT_DIR$/FindForMe.py" />
         <option value="$PROJECT_DIR$/SearchManager.py" />
+        <option value="$PROJECT_DIR$/FindForMe/FindForMe.py" />
+        <option value="$PROJECT_DIR$/FindForMe/InteractionManager.py" />
+        <option value="$PROJECT_DIR$/FindForMe/SearchManager.py" />
       </list>
     </option>
   </component>
@@ -125,7 +123,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -170,6 +168,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindForMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindForMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindForMe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -177,13 +189,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -298,6 +310,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,9 +334,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -423,13 +435,13 @@
     <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31916538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.60045487" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13922037" sideWeight="0.69783616" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14041369" sideWeight="0.67001545" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30216384" sideWeight="0.65351564" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36862442" sideWeight="0.40930787" order="7" side_tool="true" content_ui="tabs" />
@@ -438,6 +450,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.6702047" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -448,9 +461,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Major Bug Fixes:&#10;    1. Exclude sub directory search when a pattern is passed&#10;    2. Clean categorized dictionary at the end of each parent loop to ensure that there is no duplicate printing of results.&#10;    3. Fixed interaction manager to properly handle result selected." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major Bug Fixes:&#10;    1. Exclude sub directory search when a pattern is passed&#10;    2. Clean categorized dictionary at the end of each parent loop to ensure that there is no duplicate printing of results.&#10;    3. Fixed interaction manager to properly handle result selected." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,37 +500,27 @@
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/cement/ext/ext_plugin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/glob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="65" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="65" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1515" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="225" column="4" selection-start="9859" selection-end="9859" vertical-scroll-proportion="0.33244327" vertical-offset="3096" max-vertical-offset="4920">
-          <folding />
-        </state>
+        <state line="225" column="4" selection-start="9859" selection-end="9859" vertical-scroll-proportion="0.33244327" vertical-offset="3096" max-vertical-offset="4920" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fnmatch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.33333334" vertical-offset="598" max-vertical-offset="1830">
-          <folding />
-        </state>
+        <state line="58" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.33333334" vertical-offset="598" max-vertical-offset="1830" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/596071422/mmap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="8" selection-start="4090" selection-end="4090" vertical-scroll-proportion="1.2281369" vertical-offset="1086" max-vertical-offset="2640">
-          <folding />
-        </state>
+        <state line="137" column="8" selection-start="4090" selection-end="4090" vertical-scroll-proportion="1.2281369" vertical-offset="1086" max-vertical-offset="2640" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/genericpath.py">
@@ -531,25 +537,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/cement/core/foundation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="0" selection-start="16147" selection-end="16147" vertical-scroll-proportion="0.0" vertical-offset="6409" max-vertical-offset="11715">
-          <folding />
-        </state>
+        <state line="454" column="0" selection-start="16147" selection-end="16147" vertical-scroll-proportion="0.0" vertical-offset="6409" max-vertical-offset="11715" />
       </provider>
     </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/contextlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="0" selection-start="4284" selection-end="4284" vertical-scroll-proportion="0.0" vertical-offset="1572" max-vertical-offset="2370">
-          <folding />
-        </state>
+        <state line="149" column="0" selection-start="4284" selection-end="4284" vertical-scroll-proportion="0.0" vertical-offset="1572" max-vertical-offset="2370" />
       </provider>
     </entry>
     <entry file="file:///Library/Python/2.7/site-packages/cement/core/controller.py">
@@ -559,34 +554,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InteractionManager.py">
+    <entry file="file://$PROJECT_DIR$/FindForMe/InteractionManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
+        <state line="78" column="0" selection-start="3933" selection-end="3933" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SearchManager.py">
+    <entry file="file://$PROJECT_DIR$/FindForMe/SearchManager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="82" selection-start="11502" selection-end="11502" vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="5445">
-          <folding>
-            <element signature="e#21#32#0" expanded="true" />
-            <element signature="e#18371#19922#0" expanded="false" />
-            <element signature="e#19991#20150#0" expanded="false" />
-            <element signature="e#20261#21255#0" expanded="false" />
-            <element signature="e#21325#21367#0" expanded="false" />
-          </folding>
+        <state line="234" column="27" selection-start="10975" selection-end="10975" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="6180">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FindForMe.py">
+    <entry file="file://$PROJECT_DIR$/FindForMe/FindForMe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="3013" selection-end="3013" vertical-scroll-proportion="1.1142857" vertical-offset="0" max-vertical-offset="2115">
-          <folding>
-            <element signature="e#21#67#0" expanded="true" />
-          </folding>
+        <state line="129" column="4" selection-start="4809" selection-end="4809" vertical-scroll-proportion="0.8578199" vertical-offset="804" max-vertical-offset="2070">
+          <folding />
         </state>
       </provider>
     </entry>
